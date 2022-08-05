@@ -1,19 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SchoolStat</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li> <a href="#" class="logo"> <img src="images/SchoolStat logo.svg" </a></li>
+
+        <li><a href="#" class="logo">
+            <img src="images/Dashboard icon.svg" <span class="navitem">Dashboard</span> </a></li>
+
+        <li><a href="#" class="Overview"> <img src="images/Overview icon.svg" <span class="navitem">Overview</span> </a>
+        </li>
+
+        <li><a href="#" class="courses"> <img src="images/Courses icon.svg" <span class="navitem">Courses</span> </a>
+        </li>
+
+        <li><a href="#" class="students"><img src="images/Students icon.svg" <span class="navitem">Students</span></a>
+        </li>
+
+        <li><a href="#" class="Instructors"><img src="images/Instructors icon.svg" <span
+              class="navitem">Instructors</span></a></li>
+
+        <li><a href="#" class="Exams"><img src="images/Exam icon.svg" <span class="navitem">Exam</span></a></li>
+
+        <li><a href="#" class="results"><img src="images/Results icon.svg" <span class="navitem">Results</span></a></li>
+
+        <li><a href="#" class="videos"><img src="images/Videos icon.svg" <span class="navitem">Videos</span></a></li>
+      </ul>
+    </nav>
+  </div>
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+   <div class="form__group">
+          <input type="search" placeholder="search" class="form__input" />
+        </div>
+  <div class="container" class="box-1">
+<h3>DASHBOARD</h3>
+    <table>
+  <tr>
+    <th>Total students
+  </th>
+    <th> Total instructors
+    </th>
+    <th> Total tracks
+    </th>
+  </tr>
+  <tr>
+    <td>212</td>
+    <td>8</td>
+    <td>3</td>
+  </tr>
+  
+    
+</table>
+   
+ </div>
+    
+  <br>
+<div class="container" class="box-2">
+<h3>Instructors</h3>
+  <table>
+  <tr>
+    <th>Name
+  </th>
+    <th> Track
+    </th>
+    <th> Courses
+    </th>
+  </tr>
+  <tr>
+    <td>Folu Alakija</td>
+    <td>Backend</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Dame Lilian</td>
+    <td>Backend</td>
+    <td>2</td>
+  </tr>
+    <tr>
+    <td>Aliko Dangote </td>
+    <td>Cloud</td>
+    <td>2</td>
+  </tr>
+     <tr>
+    <td>Jude Edosa </td>
+    <td>Cloud</td>
+    <td>1</td>
+  </tr>
+     <tr>
+    <td>Lewis Huber </td>
+    <td>Cloud</td>
+    <td>2</td>
+  </tr>
+     <tr>
+    <td>Marie Curie </td>
+    <td>Frontend</td>
+    <td>3</td>
+  </tr>
+     <tr>
+    <td> Cynthia Enebe </td>
+    <td>Frontend</td>
+    <td>3</td>
+  </tr>
+     <tr>
+    <td>Hugo Turner </td>
+    <td>Frontend</td>
+    <td>3</td>
+  </tr>
+</table>
+   
+  
+</div>
+  <br>
+  
+<div class="container" class="box-3">
+<h3>Instructors</h3>
+  
+  <img src="images/Instructors pie chart.svg" 
+</div>
+<div class="container" class="box-3">
+  
+<h3>No of Enrolled students</h3>
+  
+   <img src="images/Enrolled students pie chart.svg" 
+</div>
+  <br>
+<div class="container" class="box-4">
+<h3>Students</h3>
+  <h4>Number of Students</h4>
+  <table>
+  <tr>
+    <th>Track
+  </th>
+    <th> Male
+    </th>
+    <th> Female
+    </th>
+    <th>Total
+    </th>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>30</td>
+    <td>15</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Cloud</td>
+    <td>21</td>
+    <td>35</td>
+    <td>56</td>
+  </tr>
+    <tr>
+    <td>Frontend </td>
+    <td>60</td>
+    <td>51</td>
+      <td>111</td>
+  </tr>
+     <tr>
+    <td>Total</td>
+    <td>111</td>
+    <td>101</td>
+   <td>212</td>
+  </tr>
+   
+</table>
+   
+  
+</div>
+  <br>
+  <div class="container" class="box-4">
+<h3><caption>Students</caption></h3>
+  <h4>Age Statistics</h4>
+  <table>
+  <tr>
+    <th>Track
+  </th>
+    <th> Avg Age
+    </th>
+    <th> Min Age
+    </th>
+    <th>Max Age
+    </th>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>28</td>
+    <td>28</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>Cloud</td>
+    <td>24</td>
+    <td>20</td>
+    <td>40</td>
+  </tr>
+    <tr>
+    <td>Frontend </td>
+    <td>25.6</td>
+    <td>18</td>
+      <td>35</td>
+  </tr>
+    
+   
+</table>
+   <br>
+  
+</div>
+   <div class="container">
+    <div class="box-5">
+       
+        
+        
+        <button class="btn" type="button">Sign In</button>
+        <br>
+        <button class="btn" type="button"> Sign up</button>
+<h3> Notice Board </h3>
+
+<h3> <img src="images/Notice board placeholder.jpg"> NTBS weekly from HackSultan </h3>
+      By Hack Sultan
+<br> 
+<h3><img src="images/Notice board placeholder.jpg">NTBS weekly from HackSultan </h3>
+      By Hack Sultan
+<br>
+<h3><img src="images/Notice board placeholder.jpg">NTBS weekly from HackSultan </h3>
+    By Hack Sultan
+<br>
+<h3><img src="images/Notice board placeholder.jpg">NTBS weekly from HackSultan </h3>
+      By Hack Sultan
+      <br>
+       <img src="images/3d avatar.svg"
+        </div>
+        </div>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
